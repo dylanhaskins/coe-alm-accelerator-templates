@@ -1,14 +1,14 @@
 ﻿    $solution = "ALMAcceleratorSampleSolution"
     $customDeploymentSettingsFilePath = "C:\Source\repos\customDeploymentSettings.json"
+    $url = "https://contosocoedev.crm.dynamics.com/"
+    $clientId = "28e0d2ac-8e83-459f-b910-ad206cf0b436"
+    $clientSecret = "xCzV2ZX6d7QTl6nmct8yLPdjfOk4C2LR"
+    $tenantId = "8a235459-3d2c-415d-8c1e-e2fe133509ad"
     Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
     $xrmDataPowerShellVersion = "2.8.12"
     #Install-Module Microsoft.Xrm.Data.PowerShell -Force -RequiredVersion $xrmDataPowerShellVersion
     $powerAppsAdminModuleVersion = "2.0.105"
     #Install-Module Microsoft.PowerApps.Administration.PowerShell -Force -RequiredVersion $powerAppsAdminModuleVersion
-    $clientId = "28e0d2ac-8e83-459f-b910-ad206cf0b436"
-    $clientSecret = "xCzV2ZX6d7QTl6nmct8yLPdjfOk4C2LR"
-    $tenantId = "8a235459-3d2c-415d-8c1e-e2fe133509ad"
-    $url = "https://contosocoedev.crm.dynamics.com/"
     $connstr = "AuthType=ClientSecret;ClientId=$clientId;ClientSecret=$clientSecret;Url=$url"
     $xrmDataPowerShellVersion = "2.8.12"
     $powerAppsAdminModuleVersion = "2.0.105"
